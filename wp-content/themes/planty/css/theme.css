@@ -22,7 +22,8 @@ display: none;
     padding-left: 30px;
  }
 
- #menu-item-38{
+ li.menu-item-38{
+
     background-color: #DC9F96;
     width: 236px;
     margin-left: 0px;
