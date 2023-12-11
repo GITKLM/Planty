@@ -82,6 +82,10 @@ padding-bottom: 0px;
    width: 198px;
    height: 55px;
 }
+.elementor-element-3b05f4c{
+   border:1px solid black;
+   align-self: end;
+}
 /********** COMMANDER ***********/
 .elementor-element .elementor-element-d6ee9c0 .e-con-full .e-flex .e-con .e-child{
    padding: 0px;
@@ -131,21 +135,19 @@ margin-bottom: 0px;
 .elementor-element-5cf1c2b{
    padding-bottom: 0px;
 }
-.elementor-element-53e7250{
-   padding: 0px;
+.elementor-element-f0165fb{
+
 }
 
 
-.wpforms-submit-container{
-   margin-top: 0px;
-   padding-top: 0px;
-}
+
 
 /********** FOOTER ***********/
 #site-footer {
     padding: 20px;
    
     text-align: center;
+    border:none;
  }
  
  #site-footer.header-footer-group{
