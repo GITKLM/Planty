@@ -6,7 +6,7 @@ body * {
    font-size: 20px;
 }
 p {
-   color: black;
+   /* color: black; */
 }
 .entry-header{
 display: none;
@@ -51,6 +51,8 @@ width: 450px;
 .elementor-element.elementor-element-9524605.e-flex.e-con-boxed.e-con.e-parent{
     padding: 0px;
 }
+
+
 /********** FOOTER ***********/
 #site-footer {
     padding: 20px;
