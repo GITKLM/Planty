@@ -2,15 +2,14 @@
 
 body * {
    font-family: 'Syne', sans-serif;
-   margin:0%;
-   /* font-size: 20px; */
+   margin: 0%;
+   font-size: 20px;
 }
 p {
    /* color: black; */
 }
 .entry-header{
 display: none;
-
 }
 header{
 
@@ -26,14 +25,18 @@ header{
     height: 19px;
     padding-left: 30px;
  }
-
- li.menu-item-38 a{
+ #menu-item-1139, #menu-item-1134{
+   margin-left: 0px;
+ }
+ li.menu-item-1139 a{
    color: #ffffff !important;
     background-color: #DC9F96;
     width: 236px;
+    margin-left: 0px;
  }
  li.menu-item-38{
    margin-left: 0px;
+   
  }
  li.menu-item a{
     padding: 10px 25px;
@@ -41,7 +44,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-
  }
  
  li.menu-item a:hover {
