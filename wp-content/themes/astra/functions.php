@@ -182,3 +182,13 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+function masquer_element_admin_non_connecte($items, $args) {
+    if ($args->theme_location == 'primary') {
+        if (is_user_logged_in ()) {
+            $items .= '<li id="menu-item-1134" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1130 current_page_item menu-item-1134"><a class="menu-link" href="http://localhost:8888/Planty/wp-admin/index.php" aria-current="page">Admin</a></li>';
+        }
+    }
+    return $items;
+}
+add_filter('wp_nav_menu_items', 'masquer_element_admin_non_connecte', 10, 2);

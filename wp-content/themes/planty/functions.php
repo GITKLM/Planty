@@ -9,9 +9,9 @@ function theme_enqueue_styles(){
 }
 
 
-// function example_callback( $main-menu ) {
+// function example_callback( $menu-title ) {
     // if()
-//     return $main-menu;
+//     return $menu-title;
 // }
 
 // add_filter( 'example_filter', 'example_callback' );

@@ -402,7 +402,7 @@ if ( ! class_exists( 'Astra_Header_Layout_Configs' ) ) {
 				 * Option: Mobile Menu Alignment
 				 */
 				array(
-					'name'              => ASTRA_THEME_SETTINGS . '[header-main-menu-align]',
+					'name'              => ASTRA_THEME_SETTINGS . '[header--align]',
 					'default'           => astra_get_option( 'header-main-menu-align' ),
 					'type'              => 'control',
 					'control'           => 'ast-radio-image',
