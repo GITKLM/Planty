@@ -62,65 +62,17 @@ body * {
    height: 55px;
 }
 
-.elementor-element-3b05f4c{
-   
-   align-self: end;
-}
 /********** COMMANDER ***********/
-.elementor-element .elementor-element-d6ee9c0 .e-con-full .e-flex .e-con .e-child{
-   padding: 0px;
-}
-#wpforms-719-field_2-container{
-   padding: 0px;
-}
-#wpforms-submit-719{
-   display: none;
-}
-#wpforms-719{
-   margin: 0px;
-}
 #wpforms-submit-610{
    display:none;
+}
+#wpforms-submit-613{
+   display: none;
 }
 #wpforms-610-field_1, #wpforms-610-field_2, #wpforms-610-field_3, #wpforms-613-field_1, #wpforms-613-field_2, #wpforms-613-field_3 {
    width: 383px;
    height: 71px;
 }
-#wpforms-submit-613{
-   display: none;
-}
-
-.elementor-element-9c4ef92{
-   padding-bottom: 0px;
-}
-#wpforms-610, #wpforms-613{
-margin-bottom: 0px;
-}
-
-.elementor-element .elementor-element-6accc65 .e-con-full .e-flex .e-con .e-child{
-   padding-bottom: 0px;
-}
-.elementor-element .elementor-element-edit-mode .elementor-element-70c0039 .e-con .e-child .e-flex .e-con-full .e-con--column{
-   padding: 0px;
-   border: 1px solid black;
-}
-.elementor-element-5170d46{
-   padding-top: 0px;
-
-}
-.elementor-element-f4ef798 {
-
-   padding: 0px;
-}
-.elementor-element-5cf1c2b{
-   padding-bottom: 0px;
-}
-.elementor-element-f0165fb{
-
-}
-
-
-
 
 /********** FOOTER ***********/
 #site-footer {
