@@ -63,8 +63,23 @@ body * {
 }
 
 /********** COMMANDER ***********/
+.wpforms-submit-container{
+   /* display:none; */
+   margin-left: 300px;
+   padding: 20px; */
+   position: absolute;
+left: 225px;
+bottom: 15px;
+
+}
 #wpforms-submit-610{
-   display:none;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+#wpforms-submit-610:hover{
+background-color: #C02E44;
 }
 #wpforms-submit-613{
    display: none;
@@ -73,7 +88,6 @@ body * {
    width: 383px;
    height: 71px;
 }
-
 /********** FOOTER ***********/
 #site-footer {
     padding: 20px;
