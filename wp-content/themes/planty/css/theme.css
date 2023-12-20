@@ -63,31 +63,58 @@ body * {
 }
 
 /********** COMMANDER ***********/
-.wpforms-submit-container{
-   /* display:none; */
-   margin-left: 300px;
-   padding: 20px; */
-   position: absolute;
-left: 225px;
-bottom: 15px;
 
+.form-container{
+   width: 88%;
+   margin:60px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
-#wpforms-submit-610{
-   padding-left: 50px;
-   padding-right: 50px;
+.formn1{
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+  margin-right: 30px;
+}
+.formn2{
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   margin-left: 30px;
+}
+.submit-commander{
+margin-top: 20px;
+margin-left: 330px;
+}
+#btn-commander{
+   background:#DC9F96;
+   padding-left: 40px;
+   padding-right: 40px;
    padding-top: 20px;
-   padding-bottom: 40px;
+   padding-bottom: 20px;
+   text-decoration: none
 }
-#wpforms-submit-610:hover{
-background-color: #C02E44;
+#btn-commander:hover{
+background:#C02E44;
 }
-#wpforms-submit-613{
-   display: none;
+.form-example{
+   padding: 15px;
+   border-radius: 10px;
+   
 }
-#wpforms-610-field_1, #wpforms-610-field_2, #wpforms-610-field_3, #wpforms-613-field_1, #wpforms-613-field_2, #wpforms-613-field_3 {
+.labelform{
+font-family: 'Syne';
+font-weight: 700;
+margin-bottom: 20px;
+color: #ffffff;
+}
+.itemform{
    width: 383px;
    height: 71px;
-}
+   padding: 5px;
+   border-radius: 10px;
+} 
 /********** FOOTER ***********/
 #site-footer {
     padding: 20px;
@@ -99,3 +126,43 @@ background-color: #C02E44;
  #site-footer.header-footer-group{
     margin-top: 0px;
  }
+
+ @media (min-width: 701px) and (max-width: 1300px){
+   .form-container{
+      width: 100%;
+      margin:0px;
+   }
+   .formn1{
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+   .formn1{
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+   .submit-commander{
+      margin-left: 270px;
+   }
+ }
+
+ @media (max-width: 700px) {
+ .form-container{
+      width: 100%;
+      margin:0px;
+   }
+   .formn1{
+      width: 100%;
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+   .formn2{
+      width: 100%;
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+   .submit-commander{
+      margin-left: 70px;
+   }
+   }
+
+ 
