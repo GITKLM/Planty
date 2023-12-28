@@ -43,6 +43,13 @@ body * {
  li.menu-item.current-menu-item a{
     text-decoration: none !important;
  }
+
+ .commanderHeader:hover{
+   background-color: #C02E44 !important;
+ }
+/* #block-8{
+   padding: 40px;
+ } */
 /********** ACCUEIL ***********/
 
 /********** NOUS RENCONTRER ***********/
@@ -151,15 +158,16 @@ color: #ffffff;
    }
 #wpcf7-f1716-p11-o1 .wpcf7-form p:nth-child(4) {
    text-align: center;
-   margin-left: 80%;
+   margin-left: 85%;
    }
 .formItemComm1, .formItemComm2{
    width: 383px;
-   height: 71px;
+
 }
 #nom2, #prenom2, #email2, #adresse, #postal, #ville{
    border-radius: 7px;
    margin-bottom: 20px;
+   height: 71px;
 }
 #commande{
    background-color: #E0B9B4;
@@ -171,6 +179,7 @@ color: #ffffff;
    background-color: #C02E44;
    text-decoration: none;
 }
+
 /********** FOOTER ***********/
 #site-footer {
     padding: 20px;
@@ -183,7 +192,7 @@ color: #ffffff;
     margin-top: 0px;
  }
 
- @media (min-width: 701px) and (max-width: 1300px){
+ /* @media (min-width: 701px) and (max-width: 1300px){
    .form-container{
       width: 100%;
       margin:0px;
@@ -225,5 +234,9 @@ color: #ffffff;
    
    }
 
+   } */
+   @media screen and (max-width: 1440px) {
+   .elementor-element.elementor-element-141f97c.elementor-hidden-mobile.elementor-widget__width-initial.elementor-absolute.elementor-widget-tablet__width-initial.elementor-widget.elementor-widget-image{
+
    }
- 
+}
