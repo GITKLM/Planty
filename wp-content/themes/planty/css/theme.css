@@ -136,6 +136,41 @@ color: #ffffff;
    border-radius: 10px;
    outline: none;
 } 
+
+/*NEW FORM*/
+#wpcf7-f1716-p11-o1 .wpcf7-form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 60px;
+   width: 60%;
+   justify-content: center;
+   margin-left: 20%;
+   color:#ffffff;
+   font-size: 20px;
+   font-weight: 400;
+   }
+#wpcf7-f1716-p11-o1 .wpcf7-form p:nth-child(4) {
+   text-align: center;
+   margin-left: 80%;
+   }
+.formItemComm1, .formItemComm2{
+   width: 383px;
+   height: 71px;
+}
+#nom2, #prenom2, #email2, #adresse, #postal, #ville{
+   border-radius: 7px;
+   margin-bottom: 20px;
+}
+#commande{
+   background-color: #E0B9B4;
+   text-decoration: none;
+   padding: 20px 50px;
+   border-radius: 5px;
+}
+#commande:hover{
+   background-color: #C02E44;
+   text-decoration: none;
+}
 /********** FOOTER ***********/
 #site-footer {
     padding: 20px;
