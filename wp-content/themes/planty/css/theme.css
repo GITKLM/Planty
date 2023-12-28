@@ -46,37 +46,41 @@ body * {
 /********** ACCUEIL ***********/
 
 /********** NOUS RENCONTRER ***********/
-
-#wpforms-953-field_2, #wpforms-953-field_3{
-   height: 71px;
-
+#wpcf7-f1715-p13-o1 .wpcf7-form {
+display: grid;
 }
-#wpforms-451-field_9{
-   height: 237px;
-}
-.wpforms-submit-container {
+#wpcf7-f1715-p13-o1 .wpcf7-form p:nth-child(5) {
    text-align: center;
-   justify-content: center;
 }
-#wpforms-submit-451{
-   width: 198px;
-   height: 55px;
-}
-#wpforms-submit-953:hover{
-background:#C02E44;
-}
-.wpcf7-text, .wpcf7-textarea, .wpcf7-select{
-   padding: 10px;
+#textmessage{
+   border-radius: 7px;
+   margin-bottom: 20px;
 }
 .formItem{
    height: 71px;
-margin: 20px;
+
+}
+#text, #email{
+   margin-bottom: 20px;
+   border-radius: 7px;
+
 }
 .messageItem{
    height: 237px;
 }
-.envoyerItem{
-   justify-content: center;
+
+#envoi{
+   background-color: #E0B9B4;
+   text-decoration: none;
+   padding: 15px 50px;
+   border-radius: 5px;
+}
+#envoi:hover{
+   background-color: #C02E44;
+   text-decoration: none;
+}
+.wpcf7-spinner{
+   display: none;
 }
 /********** COMMANDER ***********/
 
@@ -86,7 +90,6 @@ margin: 20px;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-
 }
 .formn1{
    width: 45%;
