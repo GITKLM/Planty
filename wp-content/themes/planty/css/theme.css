@@ -86,65 +86,12 @@ display: grid;
 }
 /********** COMMANDER ***********/
 
-.form-container{
-   width: 88%;
-   margin:60px;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
-.formn1{
-   width: 45%;
-   display: flex;
-   flex-direction: column;
-  margin-right: 30px;
-}
-.formn2{
-   width: 45%;
-   display: flex;
-   flex-direction: column;
-   margin-left: 30px;
-}
-.submit-commander{
-margin-top: 20px;
-margin-left: 330px;
-}
-#btn-commander{
-   background:#DC9F96;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   text-decoration: none
-}
-#btn-commander:hover{
-background:#C02E44;
-}
-.form-example{
-   padding: 15px;
-   border-radius: 10px;
-   
-}
-.labelform{
-font-family: 'Syne';
-font-weight: 700;
-margin-bottom: 20px;
-color: #ffffff;
-}
-.itemform{
-   width: 383px;
-   height: 71px;
-   padding: 5px;
-   border-radius: 10px;
-   outline: none;
-} 
-
-/*NEW FORM*/
 #wpcf7-f1716-p11-o1 .wpcf7-form {
    display: grid;
    grid-template-columns: 1fr 1fr;
    column-gap: 60px;
    width: 60%;
+   max-width: 60%;
    justify-content: center;
    margin-left: 20%;
    color:#ffffff;
@@ -157,6 +104,7 @@ color: #ffffff;
    }
 .formItemComm1, .formItemComm2{
    width: 383px;
+   max-width: 383px;
 
 }
 #nom2, #prenom2, #email2, #adresse, #postal, #ville{
@@ -187,51 +135,47 @@ color: #ffffff;
     margin-top: 0px;
  }
 
- /* @media (min-width: 701px) and (max-width: 1300px){
-   .form-container{
-      width: 100%;
-      margin:0px;
-   }
-   .formn1{
-      margin-left: 15px;
-      margin-right: 15px;
-   }
-   .formn1{
-      margin-left: 15px;
-      margin-right: 15px;
-   }
-   .submit-commander{
-      margin-left: 270px;
-   }
- }
-
- @media (max-width: 700px) {
- .form-container{
-      width: 100%;
-      margin:0px;
-   }
-   .formn1{
-      width: 100%;
-      margin-left: 5px;
-      margin-right: 5px;
-   }
-   .formn2{
-      width: 100%;
-      margin-left: 5px;
-      margin-right: 5px;
-   }
-   .submit-commander{
-      margin-left: 70px;
-   }
-   }
-   @media (min-width: 1310px){
-   .body{
-   
-   }
-
-   } */
-   @media screen and (max-width: 1440px) {
-   .elementor-element.elementor-element-141f97c.elementor-hidden-mobile.elementor-widget__width-initial.elementor-absolute.elementor-widget-tablet__width-initial.elementor-widget.elementor-widget-image{
-
-   }
+   @media (max-width: 1380px) {
+.site-branding.ast-site-identity{
+   margin: 0px;
 }
+   }
+   @media (max-width: 1024px) {
+      .formGauche{
+         width:383px;
+      }
+      .formDroite{
+         width:383px;
+      }
+   }
+   @media (max-width: 900px) {
+      .formGauche{
+         width:303px;
+      }
+      .formDroite{
+         width:303px;
+      }
+   }
+   @media (max-width: 690px) {
+      #wpcf7-f1716-p11-o1 .wpcf7-form {
+         display: grid;
+         grid-template-columns: 1fr;
+      }
+      #wpcf7-f1716-p11-o1 .wpcf7-form p:nth-child(4) {
+         margin-left: 0%;
+         }
+      .formGauche{
+         width:403px;
+      }
+      .formDroite{
+         width:403px;
+      }
+   }
+   @media (max-width: 440px) {
+      .formGauche{
+         width:303px;
+      }
+      .formDroite{
+         width:303px;
+      }
+   }
