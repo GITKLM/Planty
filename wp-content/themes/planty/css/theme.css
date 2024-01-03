@@ -6,10 +6,6 @@ body * {
 }
 
 /********** HEADER ***********/
-
- .site-logo-img{
-
- }
  .site-logo img{
     width: 230px;
     height: 19px;
@@ -47,9 +43,7 @@ body * {
  .commanderHeader:hover{
    background-color: #C02E44 !important;
  }
-/* #block-8{
-   padding: 40px;
- } */
+
 /********** ACCUEIL ***********/
 
 /********** NOUS RENCONTRER ***********/
@@ -100,12 +94,11 @@ display: grid;
    }
 #wpcf7-f1716-p11-o1 .wpcf7-form p:nth-child(4) {
    text-align: center;
-   margin-left: 85%;
+   margin-left: 83%;
    }
 .formItemComm1, .formItemComm2{
    width: 383px;
    max-width: 383px;
-
 }
 #nom2, #prenom2, #email2, #adresse, #postal, #ville{
    border-radius: 7px;
@@ -178,4 +171,10 @@ display: grid;
       .formDroite{
          width:303px;
       }
+   }
+
+   @media (min-width: 1441px) {
+.imgDivider{
+   margin-right: 20px;
+}
    }
