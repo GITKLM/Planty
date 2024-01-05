@@ -33,6 +33,7 @@ body * {
  }
  
  li.menu-item a:hover {
+   font-weight: 700;
     background-color: #C02E44 !important;
     text-decoration: none !important;
  }
